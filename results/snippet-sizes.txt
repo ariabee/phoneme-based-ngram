@@ -1,0 +1,121 @@
+
+Snippets Identification Test
+
+en: ([('english', -3607.5601367562986), ('english_uk', -3747.514275187396), ('german', -3919.6534982313997), ('french', -3985.721609355403), ('polish', -3998.7097022700386), ('cantonese', -4000.6864235811363), ('italian', -4007.33581278099), ('russian', -4026.0716852531923), ('korean', -4034.845413314563), ('turkish', -4036.4374404135096), ('spanish', -4036.9364508502126)], 'en', True)
+
+de: ([('german', -2722.6363365825646), ('english_uk', -2878.3744747157125), ('english', -2883.4396330791433), ('italian', -2897.2470295388666), ('french', -2911.3408018949776), ('polish', -2916.926169141142), ('turkish', -2935.106097002068), ('spanish', -2935.396104751064), ('cantonese', -2945.2356848934232), ('russian', -2955.9945385737806), ('korean', -2966.9360213062064)], 'de', True)
+
+es: ([('spanish', -1450.4974397974092), ('italian', -1594.1300354641503), ('turkish', -1642.4914428951304), ('french', -1662.6261295716927), ('polish', -1739.8665906370456), ('german', -1741.049425934169), ('korean', -1750.7031966773625), ('cantonese', -1769.7937211812277), ('russian', -1771.397614414333), ('english_uk', -1773.648135159659), ('english', -1779.9881565995397)], 'es', True)
+
+fr: ([('french', -2321.460094404184), ('italian', -2488.6877483763597), ('spanish', -2525.1723835037997), ('polish', -2547.509665252521), ('turkish', -2586.8818479874217), ('english', -2600.9533911174185), ('english_uk', -2604.3117099390647), ('german', -2609.197554713126), ('korean', -2634.0070580040774), ('russian', -2644.870201069947), ('cantonese', -2650.981245293983)], 'fr', True)
+
+it: ([('italian', -1822.1140269598786), ('spanish', -1988.3450833669979), ('french', -2088.314218282094), ('polish', -2147.910450635582), ('german', -2159.362233048183), ('turkish', -2172.351777558563), ('english_uk', -2182.0021110929997), ('english', -2184.409101556217), ('korean', -2187.511026289809), ('russian', -2200.0358959518744), ('cantonese', -2202.2999168906445)], 'it', True)
+
+ko: ([('korean', -212.3631627774937), ('italian', -224.11846191088955), ('french', -227.48936673909213), ('spanish', -228.61533568722243), ('polish', -230.63227102362168), ('english_uk', -230.6477687299374), ('english', -231.68307573725968), ('german', -232.00279568624268), ('turkish', -233.81952408803375), ('russian', -234.57129942015246), ('cantonese', -235.7390877642518)], 'ko', True)
+
+pl: ([('polish', -3572.8561362021073), ('french', -3845.6455006764213), ('italian', -3858.9818091800134), ('spanish', -3907.8905723146027), ('german', -3920.411612952795), ('english', -3955.720099159584), ('english_uk', -3959.1751609813723), ('russian', -3986.3255233101736), ('turkish', -3986.6305007216592), ('korean', -3989.7002552210593), ('cantonese', -4008.9585012551174)], 'pl', True)
+
+ru: ([('russian', -840.5637728461409), ('italian', -873.3558432480951), ('cantonese', -879.2279313073063), ('spanish', -880.0789028500698), ('english_uk', -884.7503012940898), ('french', -884.8521812241637), ('polish', -885.42122626945), ('english', -886.000627773488), ('german', -890.0885743645191), ('turkish', -890.6146245660306), ('korean', -893.9608747768497)], 'ru', True)
+
+tr: ([('turkish', -540.1955767909624), ('spanish', -604.6644629035432), ('italian', -635.345595481596), ('french', -639.3335073309469), ('german', -646.8933796211423), ('polish', -660.538051730412), ('english_uk', -670.4935244512368), ('english', -670.5414866284287), ('cantonese', -679.0548137285048), ('russian', -679.5762129244206), ('korean', -681.6519772577045)], 'tr', True)
+
+yue: ([('cantonese', -2037.6808106826618), ('english_uk', -2355.4931268626024), ('italian', -2359.824051625404), ('english', -2379.6352380108146), ('spanish', -2382.2920121276543), ('german', -2384.9644320885454), ('french', -2394.0402756892895), ('korean', -2403.0153994316074), ('polish', -2405.156773992694), ('turkish', -2407.0600104123832), ('russian', -2425.2176513702348)], 'yue', True)
+
+en_uk: ([('english_uk', -2207.679745587531), ('english', -2274.85511046724), ('german', -2449.968713326022), ('cantonese', -2519.4493182880137), ('french', -2525.9990607029763), ('italian', -2532.6044842377473), ('korean', -2551.7740303976225), ('spanish', -2551.880096972698), ('russian', -2554.9916159686613), ('polish', -2555.616876342485), ('turkish', -2566.57249606433)], 'en_uk', True)
+
+
+Accuracy: 11/11 (1.0)
+
+****************************************
+***Test Varying Snippet-of-Text Sizes***
+****************************************
+
+
+Snippets Identification Test
+
+en: english ('en', True)
+de: english_uk ('de', False)
+es: spanish ('es', True)
+fr: french ('fr', True)
+it: polish ('it', False)
+ko: english_uk ('ko', False)
+pl: english ('pl', False)
+ru: russian ('ru', True)
+tr: spanish ('tr', False)
+yue: cantonese ('yue', True)
+en_uk: english ('en_uk', False)
+
+Accuracy: 5/11 (0.45454545454545453)
+--> when testing string length: 5 
+
+
+Snippets Identification Test
+
+en: english ('en', True)
+de: turkish ('de', False)
+es: spanish ('es', True)
+fr: french ('fr', True)
+it: italian ('it', True)
+ko: english ('ko', False)
+pl: polish ('pl', True)
+ru: russian ('ru', True)
+tr: spanish ('tr', False)
+yue: cantonese ('yue', True)
+en_uk: english ('en_uk', False)
+
+Accuracy: 7/11 (0.6363636363636364)
+--> when testing string length: 15 
+
+
+Snippets Identification Test
+
+en: english ('en', True)
+de: turkish ('de', False)
+es: spanish ('es', True)
+fr: french ('fr', True)
+it: italian ('it', True)
+ko: english ('ko', False)
+pl: polish ('pl', True)
+ru: russian ('ru', True)
+tr: spanish ('tr', False)
+yue: cantonese ('yue', True)
+en_uk: english ('en_uk', False)
+
+Accuracy: 7/11 (0.6363636363636364)
+--> when testing string length: 25 
+
+
+Snippets Identification Test
+
+en: english ('en', True)
+de: german ('de', True)
+es: spanish ('es', True)
+fr: french ('fr', True)
+it: italian ('it', True)
+ko: english ('ko', False)
+pl: polish ('pl', True)
+ru: russian ('ru', True)
+tr: spanish ('tr', False)
+yue: cantonese ('yue', True)
+en_uk: english ('en_uk', False)
+
+Accuracy: 8/11 (0.7272727272727273)
+--> when testing string length: 35 
+
+
+Snippets Identification Test
+
+en: english ('en', True)
+de: german ('de', True)
+es: spanish ('es', True)
+fr: french ('fr', True)
+it: italian ('it', True)
+ko: korean ('ko', True)
+pl: polish ('pl', True)
+ru: russian ('ru', True)
+tr: turkish ('tr', True)
+yue: cantonese ('yue', True)
+en_uk: english_uk ('en_uk', True)
+
+Accuracy: 11/11 (1.0)
+--> when testing full strings.

@@ -1,0 +1,12 @@
+**/__pycache__/
+discarded-*.*
+**/discarded*
+*-calculation-*.*
+Brown*.zip
+Idea.pdf
+Instructions.pdf
+references-plus/
+all-chars.txt
+Brown*/
+ngram.py
+README-sub*.md

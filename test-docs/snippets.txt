@@ -1,0 +1,13 @@
+language	sentence	source (url)
+en	Morning is the period from sunrise to noon. There are no exact times for when morning begins (also true of evening and night) because it can vary according to one's lifestyle and the hours of daylight at each time of year.[1] However, morning strictly ends at noon, which is when afternoon starts.	https://en.wikipedia.org/wiki/Morning
+de	Aus meteorologischer Sicht ist der frühe Morgen infolge der Ausstrahlung in der Nacht meist die kälteste Zeit des Tages. Es zeigen sich daher auch typische Phänomene wie Morgennebel, Tau, Reif oder Frost. Aus Sicht der Phänologie und Verhaltensbiologie ist auch der morgendliche Vogelgesang bedeutend.	https://de.wikipedia.org/wiki/Guten_Morgen
+es	La mañana es la primera parte del día, que comienza con el amanecer y termina a las doce del mediodía. Le sigue a la madrugada y antecede a la tarde.	https://es.wikipedia.org/wiki/Ma%C3%B1ana
+fr	Le matin est, selon les acceptions, la période de la journée située entre le début de l'aube et midi, ou la portion de la journée comprise entre minuit et midi, lorsque le terme est utilisé dans les indications horaires	https://fr.wikipedia.org/wiki/Matin
+it	Il mattino (o mattina o mattinata) è una parte della giornata, corrispondente al secondo quarto dell'ideale partizione delle 24 ore giornaliere. In tale accezione, è preceduto dall'alba e seguito dal mezzogiorno.	https://it.wikipedia.org/wiki/Mattino
+ko	아침은 해가 떠오른 뒤부터 낮이 되기 전까지의 하루를 말한다. 한국어에서는 아침에 먹는 식사도 '아침'이라고 부르며 점심, 저녁도 이와 마찬가지로 적용을 받는다.	https://ko.wikipedia.org/wiki/%EC%95%84%EC%B9%A8
+pl	Północ oraz południe jako kulminacyjne punkty dnia i nocy od zawsze odgrywały wielką rolę we wszelkiego rodzaju rytuałach. Południe było momentem, w którym siły światła, dobra, były największe, a w związku z tym południowa modlitwa, obrządek czy magiczny rytuał miały być w tym czasie najskuteczniejsze.	https://pl.wikipedia.org/wiki/Po%C5%82udnie_(12:00)
+ru	часть суток, следующая за ночью и предшествующая дню. В русском языке точный временной интервал со словом «утро» не связан.	https://ru.wikipedia.org/wiki/%D0%A3%D1%82%D1%80%D0%BE
+tr	Bu zaman diliminde, öğle vaktine yakın bir zamanda yapılan kahvaltı, kuşluk kahvaltısı olarak da bilinir. Kahvaltıda hafif yemekler de bulunduğu takdirde, kuşluk yemeği olarak bilinir.	https://tr.wikipedia.org/wiki/Ku%C5%9Fluk_(zaman)
+yue	本地人亦沒有浪費美麗的山野風光，大多都會選擇在周末到戶外行山，尤其是在較涼快的月份。	https://discovery.cathaypacific.com/easy-hong-kong-hikes/?lang=zh-hans
+en_uk	Earlier that evening, Prince William called on people to save a world still consuming more than it could bear, grounding his urgent tone in three generations of royal environmental concern.	https://www.bbc.com/news/uk-61699950
+
