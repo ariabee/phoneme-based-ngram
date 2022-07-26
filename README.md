@@ -15,7 +15,14 @@ Results of this initial “snippet” test show that the model is accurate for 1
 2. analyze frequency distributions of speech sounds across languages using the computed data from this project.
 	> *Initial work begins in `analyze.py`*.
 
-## How to use
+## To-do's.
+
+- organize project files into folders
+- add revised Report.pdf
+
+
+
+## How to use.
 
 1. Install required packages: `pip install -r requirements.txt`
 
@@ -24,15 +31,16 @@ Navigate to the project directory (this folder).
 
 3. Run the following commands:
 
-	`python3`
-	
-	`import finalproject, utilities, text_to_ipa, train_ngram, identify, evaluate`
+```
+python3
+import finalproject, utilities, text_to_ipa, train_ngram, identify, evaluate
+```
+or
 
-	or
-
-	`python3`
-
-	`from finalproject import *`
+```
+python3
+from finalproject import *
+```
 
 ## Hello note!
 Hi! Sometimes we're given opportunities to bring an idea to fruition, and sometimes the only way forward is to come up with an idea. This project is a result of both circumstances. The deed is done, the work was plenty, and now I'm happy to share this project here. 
