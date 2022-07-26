@@ -1,19 +1,19 @@
 # Phoneme-Based N-gram Language Identification
-This project presents a phoneme-based n-gram language identification model that takes in a string of IPA (International Phonetic Alphabet) characters as input and identifies the language. Most likely languages are identified using an n-gram model trained on IPA-translated documents in 11 languages. The languages are scored using a method based on log probabilities of the input n-grams occurring in each language. To test the accuracy of the model, new sentences from each language are translated into IPA and identified. 
+Introducing a phoneme-based n-gram language identification model that takes in a string of IPA (International Phonetic Alphabet) characters as input and identifies the language. Most likely languages are identified using an n-gram model trained on IPA-translated documents in 11 languages. The languages are scored using a method based on log probabilities of the input n-grams occurring in each language. To test the accuracy of the model, new sentences from each language are translated into IPA and identified. 
 
 Results of this initial “snippet” test show that the model is accurate for 11/11 samples representing one sample for each language. 
 
-This project offers additional functionalities:
+**This project offers additional functionalities:**
 1. transcribe a string of text (in 11 possible languages) into IPA characters
 
-> `>>> translate("a transcribed phrase", "en")`</br>
->`'ə t ɹ æ n s k ɹ aɪ b d f ɹ eɪ z'`
+	`translate("a transcribed phrase", "en")`</br>
+	`'ə t ɹ æ n s k ɹ aɪ b d f ɹ eɪ z'`
 
-> `>>> translate('綠色城市。', 'yue')` </br>
-> `'l ʊ k s ɪ k s ɪ ŋ s iː'`
+	`translate('綠色城市。', 'yue')` </br>
+	`'l ʊ k s ɪ k s ɪ ŋ s iː'`
 
 2. analyze frequency distributions of speech sounds across languages using the computed data from this project.
-> *Initial work begins in `analyze.py`*.
+	> *Initial work begins in `analyze.py`*.
 
 ## How to use
 
@@ -33,4 +33,11 @@ Navigate to the project directory (this folder).
 	`python3`
 
 	`from finalproject import *`
+
+## Hello note!
+Hi! Sometimes we're given opportunities to bring an idea to fruition, and sometimes the only way forward is to come up with an idea. This project is a result of both circumstances. The deed is done, the work was plenty, and now I'm happy to share this project here. 
+
+To anyone interested, feel free to look around! And to anyone with an untold idea, I can attest that the bigger the unknown, the more rewarding the finish line. (That is, the first finish line, because we have to finish sometime. :) )
+
+
 
