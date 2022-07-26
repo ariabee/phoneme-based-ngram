@@ -37,8 +37,8 @@ DIPHTHONGS = ["oʊ","aʊ","aɪ","eɪ","ɔɪ","əʊ","ɪə","eə"]
 ACCENTS = ["꜒","꜓","꜔","꜕","꜖","˥","˦","˧","˨","˩"]
 
 # Define file paths
-DOCUMENT_PATH = "./language-texts/"
-IPA_PATH = "./ipa-dictionaries/"
+DOCUMENT_PATH = "./language-data/texts/"
+IPA_PATH = "./language-data/ipa-dictionaries/"
 
 
 
@@ -93,10 +93,10 @@ def en_text_to_csv():
     """
 
     # Define path of text file
-    TEXT = "./discarded-og-files/en-cmudict-0.7b-ipa.txt"
+    TEXT = "./../discarded-og-files/en-cmudict-0.7b-ipa.txt"
 
     # Initialize CSV file
-    CSV = "./ipa-dictionaries/en-v2.csv"
+    CSV = "./language-data/ipa-dictionaries/en-v2.csv"
 
     # Open text file for reading
     with open(TEXT, "r", encoding="utf-8") as text:
@@ -140,8 +140,8 @@ def yue_csv_edit():
     """
 
     # Define path to CSV files
-    CSV = "./ipa-dictionaries/yue.csv"
-    UPDATED = "./ipa-dictionaries/yue-v2.csv"
+    CSV = "./language-data/ipa-dictionaries/yue.csv"
+    UPDATED = "./language-data/ipa-dictionaries/yue-v2.csv"
 
     # Open csv file for reading
     with open(CSV, "r", encoding="utf-8", newline="") as yue:
@@ -190,8 +190,8 @@ def en_uk_csv_edit():
     """
 
     # Define path to CSV files
-    CSV = "./ipa-dictionaries/en_uk.csv"
-    UPDATED = "./ipa-dictionaries/en_uk-v2.csv"
+    CSV = "./language-data/ipa-dictionaries/en_uk.csv"
+    UPDATED = "./language-data/ipa-dictionaries/en_uk-v2.csv"
 
     # Open csv file for reading
     with open(CSV, "r", encoding="utf-8", newline="") as en_uk:
@@ -228,7 +228,7 @@ def make_all_lowercase():
     for l in LANGUAGES:
 
         # Define file paths
-        ipa = "./discarded-og-files/pre-lowercase-ipa-dicts/" + l + ".csv"
+        ipa = "./../discarded-og-files/pre-lowercase-ipa-dicts/" + l + ".csv"
         updated = IPA_PATH + l + "-v2.csv"
 
         # Open csv file for reading

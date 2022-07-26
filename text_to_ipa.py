@@ -30,7 +30,7 @@ import re
 from tqdm import tqdm
 
 # Create directory for storing IPA-translated training documents
-IPA_DOCS = "./ipa-documents/"
+IPA_DOCS = "./language-data/ipa-documents/"
 if not os.path.isdir(IPA_DOCS):
 	os.mkdir(IPA_DOCS)
 

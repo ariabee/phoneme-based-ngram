@@ -17,7 +17,7 @@ from tqdm import tqdm
 # Dictionary of file paths for training corpora (documents in IPA for each language)
 CORPORA = {}
 for l in LANGUAGES:
-    CORPORA[l] = "./ipa-documents/"+l+"-doc-in-ipa.txt"
+    CORPORA[l] = "./language-data/ipa-documents/"+l+"-doc-in-ipa.txt"
 
 END_UTTERANCE = "."
 LANGUAGE_NGRAMS = {} # store here for access later
