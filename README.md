@@ -21,17 +21,19 @@ This work began as an open-ended final project for the master's course "Computat
 
 - organize project files into folders
 - add revised Report.pdf
+- add console gif :)
 
 
 
 ## How to Use
 
-1. Install required packages: `pip install -r requirements.txt`
+1. Clone the repository to your local machine.
 
-2. Open a command line interface.
+2. Install required packages: `pip install -r requirements.txt`
+
+3. Open a command line interface.
 Navigate to the project directory (this folder).
-
-3. Run the following commands:
+4. Run the following commands:
 
 ```
 python3
