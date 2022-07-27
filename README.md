@@ -27,12 +27,12 @@ This work began as an open-ended final project for the master's course "Computat
 
 ## How to Use
 
-1. Clone the repository to your local machine.
+1. Open a command line interface. Clone the repository to your local machine.
 
 2. Install required packages: `pip install -r requirements.txt`
 
-3. Open a command line interface.
-Navigate to the project directory (this folder).
+3. Navigate to the project directory (this folder).
+
 4. Run the following commands:
 
 ```
