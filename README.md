@@ -13,7 +13,7 @@ Results of this initial “snippet” test show that the model is accurate for 1
 	`'l ʊ k s ɪ k s ɪ ŋ s iː'`
 
 2. analyze frequency distributions of speech sounds across languages using the computed data from this project.
-	> *Initial work begins in `analyze.py`*.
+	> *Analysis begins in `analyze.py`*.
 
 This work began as an open-ended final project for the master's course "Computational Linguistics" at UdS.
 
